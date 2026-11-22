@@ -1,0 +1,28 @@
+# Vivado generated directories (auto-recreated when opening .xpr)
+*.cache/
+*.hw/
+*.hbs/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+
+# Vivado logs, journals, and temp files
+*.jou
+*.log
+*.str
+*.dmp
+*.pb
+*.wdb
+vivado*.backup.*
+webtalk*.log
+webtalk*.jou
+xelab.*
+xsim.*
+xvlog.*
+
+# OS / editor / archives
+.DS_Store
+Thumbs.db
+*.zip
+*.rar
