@@ -4,20 +4,6 @@ Single-cycle RV32I processor in Verilog targeting the **Basys 3 (Artix-7)** FPGA
 
 ---
 
-## How to Open & Run (For Team Members)
-
-1. Clone this repo anywhere on your machine.
-2. Open **`CA_risc_V_processor.xpr`** in Vivado.
-3. All Verilog sources, testbenches, `.mem` files, and `.xdc` constraints use relative paths (`$PSRCDIR/...`), so nothing needs to be re-linked.
-4. **To run the counter simulation:**
-   - `TopLevelProcessor_counter_tb` is already set as the simulation top.
-   - Click **Run Simulation → Run Behavioral Simulation**, then click **Run All (`F3`)** (the default 1000 ns is too short).
-   - You should see `ALL DONE` with all 5 tests passing.
-5. **To synthesize for Basys 3:**
-   - Right-click `top_riscv_fpga` in Design Sources → **Set as Top**.
-   - `constraint_oel.xdc` is already registered in Constraints (`constrs_1`).
-
----
 
 ## Project Structure
 
@@ -33,7 +19,7 @@ Single-cycle RV32I processor in Verilog targeting the **Basys 3 (Artix-7)** FPGA
 
 ---
 
-## Status: What Is Done vs. What Is Left
+## work left
 
 ### Done
 - [x] **Labs 5–11 single-cycle CPU** integrated in `TopLevelProcessor.v`
